@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+
+main {
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Manuale', serif;
+}
+
+a {
+    font-family: 'Manuale', serif;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 70, 70);
+}
+
+header>figure {
+    width: 10%;
+}
+
+header>figure>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+header>nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+header>nav>ul {
+    display: flex;
+    width: 100%;
+    height: 50%;
+
+}
+
+header>nav>ul>li {
+
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    height: 100%;
+}
+header>nav>ul>li:hover>a{
+    color: rgb(241, 70, 70);
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+header>nav>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+header>div {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+header>div>button {
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+header>div>button>a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    font-family: 'Manuale', serif;
+}
+
+header>div>button>a>i {
+    font-size: 60px;
+}
+
+
+
+header>div>div {
+
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+    background: rgb(139, 0, 0);
+    position: absolute;
+    top: 45px;
+    left: -20px;
+}
+
+/* end***header */
+/* start********.part */
+[class*="part"] {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 110vh;
+}
+
+[class*="part"]>figure {
+    width: 50%;
+    height: 100%;
+}
+
+[class*="part"]>figure>img {
+    width: 100%;
+    height: 100%;
+}
+
+[class*="part"]>.text {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 10px 50px;
+
+
+}
+
+[class*="part"]>.text>strong {
+    padding-left: 20px;
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.part1 {
+    background-color: rgb(241, 70, 70);
+}
+
+.part1>.text>strong {
+    color: white;
+}
+
+.part1>.text>h3 {
+    font-size: 35px;
+    color: white;
+    margin-top: 70px;
+}
+
+.part1>.text>p {
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.part2 {
+    background-color: rgb(248, 248, 198);
+}
+
+.part2>.text>p {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 70px;
+    color: rgb(241, 70, 70);
+}
+
+.part2>.text>strong {
+    color: rgb(241, 70, 70);
+
+}
+
+.part3 {
+    background-color: rgb(241, 70, 70);
+}
+
+.part3>.text>p {
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.part3>.text>strong,
+.part1>.text>strong {
+    color: white;
+}
+
+/* start*****.content-img */
+
+.content-img {
+    height: 250px;
+    width: 100%;
+    background: white;
+}
+
+.content-img>* {
+    width: 100%;
+}
+
+.content-img>h4 {
+    justify-content: center;
+    height: 100px;
+    color: red;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.content-img>div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.content-img>div>figure {
+    flex-grow: 1;
+}
+
+.content-img>div>figure>img {
+    width: 100%;
+}
+
+
+/* start******button */
+[class*="part"]>.text>div {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin-top: 50px;
+}
+
+[class*="part"]>.text>div>div {
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    background: rgb(139, 0, 0);
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+
+}
+
+[class*="part"]>.text>div>button {
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    z-index: 1;
+
+}
+
+[class*="part"]>.text>div>button>a {
+    color: rgb(241, 70, 70);
+    font-family: 'Manuale', serif;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+/* start***.mahsa*****marquee */
+[class*="mahsa"] {
+    height: 100px;
+    width: 100%;
+    background: white;
+
+}
+
+[class*="mahsa"]>marquee {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+[class*="mahsa"]>marquee>a {
+    color: rgb(241, 70, 70);
+    font-size: 30px;
+}
+
+/* start******.part4 */
+.part4 {
+    background-image: url(../fimg/5.png);
+    background-position: center bottom;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.part4>* {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.part4>strong {
+    font-size: 100px;
+}
+
+.part4>p {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.part4>form>input {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Manuale', serif;
+    font-size: 22px;
+
+}
+
+.part4>form>button {
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    color: rgb(241, 70, 70);
+    font-size: 22px;
+    font-family: 'Manuale', serif;
+    margin-left: 10px;
+
+}
+
+/* start*****footer */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>figure {
+    width: 20%;
+    /* border: 1px solid green; */
+}
+
+footer>figure>img {
+    width: 100%;
+}
+
+footer>div {
+    width: 30%;
+    margin-top: 30px;
+}
+
+footer>.box>a {
+    font-size: 50px;
+    color: rgb(251, 123, 123);
+
+}
+
+footer>div>a {
+    color: white;
+    font-size: 30px;
+}
+footer>div>a:hover>i{
+    color: rgb(251, 123, 123);
+    background: white;
+    border-radius: 50%;
+}
+footer>div>a>i{
+    margin-left: 25px;
+}
