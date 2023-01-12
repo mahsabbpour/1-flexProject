@@ -1,6 +1,6 @@
 # 1-flexProject
 
-![view final](https://user-images.githubusercontent.com/120960956/211613526-5d88e6c3-895a-4dc8-a981-7d1b7e2c0d79.mp4)
+[view final](https://user-images.githubusercontent.com/120960956/211613526-5d88e6c3-895a-4dc8-a981-7d1b7e2c0d79.mp4)
 
 - [Demo Project](https://mahsabbpour.github.io/1-flexProject/)
 
